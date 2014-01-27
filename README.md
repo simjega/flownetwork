@@ -10,5 +10,5 @@ It includes:
 main.py can parse and call all functions
 
 usage: 
-	cd path/to/repo:
+	cd path/to/repo
 	python main.py "path/to/csv/file"
