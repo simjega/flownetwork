@@ -10,14 +10,15 @@ It includes:
 main.py can parse and call all functions
 
 Usage: 
-	cd path/to/repo
-	python main.py "path/to/csv/file"
+    cd path/to/repo
+    python main.py "path/to/csv/file"
 
 
 CSV file format:
-v
-i,j,C_i,j
-...
+    v
+    i,j,C_i,j
+    i,j,C_i,j
+    ...
 
 where v = # of vertices
 i,j = indices of vertices and the capacity of connection going from vertex i to vertex j
