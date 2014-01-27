@@ -18,10 +18,13 @@ python main.py "path/to/csv/file"
 CSV file format:
 ```
 v
-i,j,C_i,j
-i,j,C_i,j
+i,j,C_ij
+i,j,C_ij
 ...
 ```
 
-where v = # of vertices
-i,j = indices of vertices and the capacity of connection going from vertex i to vertex j
+where: 
+* v = # of vertices
+* i,j = indices of vertices
+* C_ij = capacity of edge going from vertex i to vertex j
+
