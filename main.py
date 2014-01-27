@@ -18,7 +18,7 @@ if __name__ == '__main__':
     if len(args) == 2:
         path = makeAbsolutePath(args[1])
     else:
-        path = getcwd() + '/testFN.txt'
+        path = getcwd() + '/testFN.csv'
     network = setup(path)
 
     max_flow = network.fordFulkerson()
