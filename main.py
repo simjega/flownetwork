@@ -1,6 +1,6 @@
 import sys
 from util import parse, makeAbsolutePath
-from os import getcwd
+import os
 from edge import Edge
 from graph import Graph
 from flow_network import FlowNetwork
@@ -18,7 +18,7 @@ if __name__ == '__main__':
     if len(args) == 2:
         path = makeAbsolutePath(args[1])
     else:
-        path = getcwd() + '/testFN.csv'
+        path = os.getcwd() + '/testFN.csv'
     network = setup(path)
 
     max_flow = network.fordFulkerson()

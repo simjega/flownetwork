@@ -40,4 +40,4 @@ def parse(path):
 def makeAbsolutePath(path):
     if os.path.isabs(path):
         return path
-    return os.cwd() + path
+    return os.getcwd() + '/' + path
